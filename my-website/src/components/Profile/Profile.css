@@ -13,7 +13,7 @@
 .profile_name .name{
     text-transform: uppercase;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .profile_name .title{
@@ -34,5 +34,15 @@
 }
 
 .profile .timeline_item_text {
-    font-size: small !important;
+    font-size: 13.5px !important;
+}
+
+.profile .timeline_item_text >span {
+    font-size: 13.5px !important;
+    color:black;
+    font-weight: 600;
+}
+
+a{
+    color:#a09351 !important;
 }

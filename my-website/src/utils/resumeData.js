@@ -5,7 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-    name: 'Isabel is coding',
+    name: 'Trică Isabel-Claudia',
     title: 'Computer Science Student',
     birthday:'31st August 2000',
     email:'isabel.claudia31@gmail.com',
