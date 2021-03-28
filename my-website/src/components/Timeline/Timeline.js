@@ -35,7 +35,7 @@ const CustomTimeline = ({title,icon, children}) => {
 
 export const CustomTimelineSeparator=() => (
     <TimelineSeparator className={'separator_padding'}>
-          <TimelineDot variant={'outline'} className={'timeline_dot'}/>
+          <TimelineDot variant={'outline'} className={'timeline_dot'} title={'Welcome to my profile'}/>
           <TimelineConnector />
         </TimelineSeparator>
 )

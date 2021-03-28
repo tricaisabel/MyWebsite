@@ -13,19 +13,19 @@ export default {
     phone: '(0741) 474 511',
 
     socials:{
-        facebook:
+        Facebook:
         {
             link:'https://www.facebook.com/isabel.trica/',
-            text:'IsabelIsCoding',
+            text:'My Facebook Page',
             icon: <FacebookIcon/>,
         },
-        linkedin:
+        Linkedin:
         {
             link:'https://www.facebook.com/isabel.trica/',
             text:'My LinkedIn',
             icon: <LinkedInIcon/>,
         },
-        github:
+        GitHub:
         {
             link:'https://www.facebook.com/isabel.trica/',
             text:'My GitHub',

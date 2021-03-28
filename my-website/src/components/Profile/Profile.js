@@ -37,12 +37,15 @@ const Profile = () => {
         </figure>
 
         <div className='profile_information'>
-            <CustomTimeline icon={<PersonOutlineIcon/>}>
+            <CustomTimeline icon={<PersonOutlineIcon/>} title={'Welcome to my profile!'}>
                 <CustomTimelineItem title='Name: ' text={resumeData.name}/>
                 <CustomTimelineItem title='Title: ' text={resumeData.title}/>
                 <CustomTimelineItem title='Email: ' text={resumeData.email}/>
 
-                
+                {Object.keys(resumeData.socials).map(key =>
+                (
+                    <CustomTimelineItem title={key+': '} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
+                ))}
                 
             </CustomTimeline>
             <br/>
