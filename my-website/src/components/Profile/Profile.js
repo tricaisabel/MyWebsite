@@ -1,22 +1,50 @@
 import React from 'react';
 import {Typography} from '@material-ui/core';
-import CustomTimeline from '../Timeline/Timeline';
+import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import CustomTimeline, {CustomTimelineSeparator} from '../Timeline/Timeline';
 import './Profile.css';
 import profile from '../../assets/images/picture.jpg';
+import resumeData from '../../utils/resumeData';
+import TimelineItem from '@material-ui/lab/TimelineItem';
+import TimelineContent from '@material-ui/lab/TimelineContent';
+
+
+const CustomTimelineItem=({title, text, link}) =>
+(
+    <TimelineItem>
+        <CustomTimelineSeparator/>
+        <TimelineContent>
+            { link ? (
+            <Typography className='timeline_item_text'>
+                <span>{title}</span>
+                <a href={link} target='_blank'>{text}</a>
+            </Typography>) : 
+            (
+                <Typography><span>{title}</span>{text}</Typography>
+            )}
+        </TimelineContent>
+    </TimelineItem>)
 
 const Profile = () => {
     return (
         <div className='profile container_shadow'>
             <div className='profile_name'>
-            <Typography className='name'>Isabel</Typography>
-            <Typography className='title'>Title</Typography>
+            <Typography className='name'>{resumeData.name}</Typography>
+            <Typography className='title'>{resumeData.title}</Typography>
             </div>        
         <figure className='profile_image'>
             <img src={profile} alt="" />
         </figure>
 
         <div className='profile_information'>
-            <CustomTimeline></CustomTimeline>
+            <CustomTimeline icon={<PersonOutlineIcon/>}>
+                <CustomTimelineItem title='Name: ' text={resumeData.name}/>
+                <CustomTimelineItem title='Title: ' text={resumeData.title}/>
+                <CustomTimelineItem title='Email: ' text={resumeData.email}/>
+
+                
+                
+            </CustomTimeline>
             <br/>
             <button>my button</button>
         </div>
