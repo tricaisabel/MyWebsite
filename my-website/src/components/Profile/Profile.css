@@ -42,7 +42,7 @@
 }
 
 a{
-    color:#a09351 !important;
+    color:var(--main-color) !important;
 }
 
 .profile .btn_container{

@@ -21,7 +21,7 @@ export default {
         },
         Linkedin:
         {
-            link:'https://www.facebook.com/isabel.trica/',
+            link:'https://www.linkedin.com/in/isabel-claudia-tric%C4%83-9a92b71b5/',
             text:'My LinkedIn',
             icon: <LinkedInIcon/>,
         },
