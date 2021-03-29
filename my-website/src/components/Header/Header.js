@@ -5,6 +5,7 @@ import {Link, NavLink, withRouter} from "react-router-dom";
 import {HomeRounded, SchoolRounded, WorkRounded, Facebook, Twitter, LinkedIn, GitHub, Telegram} from '@material-ui/icons';
 import resumeData from '../../utils/resumeData';
 import CustomButton from '../Button/Button';
+import Brightness3Icon from '@material-ui/icons/Brightness3';
 import './Header.css';
 
 
@@ -42,6 +43,7 @@ const Header = (props) => {
                         <a href={resumeData.socials[key].link} target="_blank">{resumeData.socials[key].icon}</a>
                     ))}
                     <CustomButton text={'Hire Me'} icon={<Telegram />}/>
+                    <CustomButton className='dark_btn' text={'Dark Mode'} icon={<Brightness3Icon />}/>
                 </div>
             </Navbar.Collapse>
 
