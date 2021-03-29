@@ -7,6 +7,8 @@ import profile from '../../assets/images/picture.jpg';
 import resumeData from '../../utils/resumeData';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
+import CustomButton from '../Button/Button';
+import GetAppIcon from '@material-ui/icons/GetApp';
 
 
 const CustomTimelineItem=({title, text, link}) =>
@@ -38,8 +40,6 @@ const Profile = () => {
 
         <div className='profile_information'>
             <CustomTimeline icon={<PersonOutlineIcon/>} title={'Welcome to my profile!'}>
-                <CustomTimelineItem title='Name: ' text={resumeData.name}/>
-                <CustomTimelineItem title='Title: ' text={resumeData.title}/>
                 <CustomTimelineItem title='Email: ' text={resumeData.email}/>
 
                 {Object.keys(resumeData.socials).map(key =>
@@ -48,10 +48,13 @@ const Profile = () => {
                 ))}
                 
             </CustomTimeline>
-            <br/>
-            <button>my button</button>
+            
+            <div className='btn_container'>
+                <CustomButton text={'Download CV'} icon={<GetAppIcon/> }/>
+            </div>
+            
         </div>
-        </div>
+    </div>
 
 
     )

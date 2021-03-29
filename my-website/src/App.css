@@ -1,7 +1,13 @@
-.container {
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top:10px;
+
+/*Margins and padding*/
+.top_60 {
+    margin-top:60px !important;
+}
+
+@media (max-width:911px){
+    .top_60 {
+        margin-top:30px !important;
+    }
 }
 
 :root{

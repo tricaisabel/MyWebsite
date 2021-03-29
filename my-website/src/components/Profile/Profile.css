@@ -28,21 +28,27 @@
 }
 
 .profile_image img {
-    width: 65%;
-    margin-left: 50px;
-    height: 70%;
+    width: 100%;
 }
 
 .profile .timeline_item_text {
-    font-size: 13.5px !important;
+    font-size: 15px !important;
 }
 
 .profile .timeline_item_text >span {
-    font-size: 13.5px !important;
+    font-size: 15px !important;
     color:black;
     font-weight: 600;
 }
 
 a{
     color:#a09351 !important;
+}
+
+.profile .btn_container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
