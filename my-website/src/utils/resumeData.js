@@ -27,7 +27,7 @@ export default {
         },
         GitHub:
         {
-            link:'https://www.facebook.com/isabel.trica/',
+            link:'https://github.com/tricaisabel',
             text:'My GitHub',
             icon: <GitHubIcon/>,
         },
