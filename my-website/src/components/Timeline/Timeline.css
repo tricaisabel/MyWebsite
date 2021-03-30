@@ -38,14 +38,12 @@
     padding: 2px !important;
 }
 
-.timeline .MuiTimelineConnector-root {
-    background-color: #eee !important;
-}
 
 .timeline .timeline_dot_header .MuiSvgIcon-root{
     font-size: 15px;
     color:darkslategray;
 }
+
 
 .timeline .separator_padding {
     padding-left: 14px !important;
