@@ -32,6 +32,7 @@
 .header .header_right{
     display: flex !important;
     align-items: center !important;
+    margin-left:10px;
 }
 
 .header .header_right > a > .MuiSvgIcon-root{
@@ -43,4 +44,13 @@
 .header .header_left{
     margin-right:auto;
 }
+
+.header .header_right .dark_btn{
+    display: flex !important;
+    align-items: center !important;
+    margin-left:10px;
+    color:gray !important;
+}
+
+
 

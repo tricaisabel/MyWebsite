@@ -40,11 +40,12 @@
 
 .main_content{
     background-color: white;
-    min-height:100vh;
+    min-height: 50vh;
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     padding:30px;
+    padding-top: 71px;
   }
 
   .section_title{

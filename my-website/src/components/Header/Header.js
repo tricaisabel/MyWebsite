@@ -43,7 +43,10 @@ const Header = (props) => {
                         <a href={resumeData.socials[key].link} target="_blank">{resumeData.socials[key].icon}</a>
                     ))}
                     <CustomButton text={'Hire Me'} icon={<Telegram />}/>
-                    <CustomButton className='dark_btn' text={'Dark Mode'} icon={<Brightness3Icon />}/>
+                </div>
+
+                <div className='header_right dark_btn'>
+                    <CustomButton className='dark_btn' text={'Dark'} icon={<Brightness3Icon />}/>
                 </div>
             </Navbar.Collapse>
 
