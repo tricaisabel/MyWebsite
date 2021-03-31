@@ -50,7 +50,10 @@ const Profile = () => {
             </CustomTimeline>
             
             <div className='btn_container'>
-                <CustomButton text={'Download CV'} icon={<GetAppIcon/> }/>
+                <CustomButton text={'Open CV'} icon={<GetAppIcon/> }>
+                    <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank" rel="noreferrer">
+                    </a>
+                </CustomButton>
             </div>
             
         </div>
