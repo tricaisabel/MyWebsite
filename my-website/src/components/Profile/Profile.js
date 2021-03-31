@@ -8,7 +8,7 @@ import resumeData from '../../utils/resumeData';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import CustomButton from '../Button/Button';
-import GetAppIcon from '@material-ui/icons/GetApp';
+import InsertDriveFileIcon from '@material-ui/icons/InsertDriveFile';
 
 
 const CustomTimelineItem=({title, text, link}) =>
@@ -50,10 +50,7 @@ const Profile = () => {
             </CustomTimeline>
             
             <div className='btn_container'>
-                <CustomButton text={'Open CV'} icon={<GetAppIcon/> }>
-                    <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank" rel="noreferrer">
-                    </a>
-                </CustomButton>
+                <CustomButton text={'Open CV in Google Drive'} icon={<InsertDriveFileIcon/>} link={"https://drive.google.com/file/d/1bDuCg0pI0QgIfjqoVOgzMNFq1L3XvNCo/view?usp=sharing"} />
             </div>
             
         </div>
