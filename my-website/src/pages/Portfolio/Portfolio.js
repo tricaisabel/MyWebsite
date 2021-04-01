@@ -12,10 +12,8 @@ const Portfolio = () => {
                     <h5 className='section_title_text'>My GitHub Repositories</h5>
             </Grid>
 
-            <Grid item xs={12}>
-                <Grid container spacing={3} justify='space-between'>
-                    <GitHub />
-                </Grid>
+            <Grid item xs={12} className='section'>
+                <GitHub />
             </Grid>
         </Grid>
     )
