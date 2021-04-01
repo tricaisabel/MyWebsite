@@ -29,7 +29,8 @@
 }
 
 :root{
-    --main-color: #E5CABC; 
+    --main-color: #F8C701
+    ; 
 }
 
 .container_shadow{
@@ -52,7 +53,7 @@
       position:relative;
       display:inline-block;
       padding:0 3px;
-      color:darkslategrey;
+      color:rgb(94, 94, 94) !important;
   }
 
   .section_title .section_title_text{

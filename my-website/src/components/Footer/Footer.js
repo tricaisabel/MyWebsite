@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer_left'>
-                <Typography className='footer_name'>{resumeData.name}</Typography>
+                <Typography className='footer_name'>Thank you for coming!</Typography>
             </div>
             <div className='footer_right'>
             <Typography className='footer_copyright'>

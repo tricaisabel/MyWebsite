@@ -33,15 +33,14 @@
 
 /*Remaining items*/
 .timeline .timeline_dot{
-    color:gray !important;
-    border-color:var(--main-color) !important;
-    padding: 2px !important;
+    background-color: white;
+    border-color: var(--main-color) !important;
 }
 
 
 .timeline .timeline_dot_header .MuiSvgIcon-root{
     font-size: 15px;
-    color:darkslategray;
+    color:black;
 }
 
 

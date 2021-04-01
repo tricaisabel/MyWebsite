@@ -76,17 +76,17 @@ export default {
  services: [
      {
          title:'Web Dev',
-         description:'I have been a badass web developer for 10 years',
+         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tortor lectus, elementum',
          icon: <AssignmentIndOutlinedIcon />,
      },
      {
         title:'Graphic Designer',
-        description:'I have been a badass Graphic Designer for 9 years',
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tortor lectus, elementum',
         icon: <DesktopMacOutlinedIcon />,
     },
     {
         title:'Visual identity',
-        description:'I have created badass visual identities for clients',
+        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tortor lectus, elementum',
         icon: <FingerprintIcon />,
     },
 
